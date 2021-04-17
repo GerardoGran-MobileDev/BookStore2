@@ -48,17 +48,17 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <toolbarItems>
-                        <barButtonItem systemItem="add" id="mRI-Zz-WMq">
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="i7N-Vr-BA8">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="MHV-fp-Oml">
                             <connections>
-                                <action selector="addNew" destination="BYZ-38-t0r" id="7sC-kO-skM"/>
+                                <action selector="AddNew:" destination="BYZ-38-t0r" id="r3B-J2-4Ra"/>
                             </connections>
                         </barButtonItem>
-                    </toolbarItems>
-                    <navigationItem key="navigationItem" id="i7N-Vr-BA8"/>
+                    </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <outlet property="addNew" destination="mRI-Zz-WMq" id="gve-sE-WHT"/>
+                        <outlet property="myTableView" destination="xep-5M-kOf" id="aVg-l5-fkK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -68,6 +68,7 @@
         <!--Navigation Controller-->
         <scene sceneID="4JL-vb-vD1">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AUB-8B-xBY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nFm-Wx-04C" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pzP-7B-lNC">
@@ -79,7 +80,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="hbd-Gp-9Yg"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="AUB-8B-xBY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="111.83035714285714"/>
         </scene>

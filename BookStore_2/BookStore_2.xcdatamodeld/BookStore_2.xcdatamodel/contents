@@ -12,7 +12,7 @@
         <relationship name="author" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Author" inverseName="books" inverseEntity="Author"/>
     </entity>
     <elements>
-        <element name="Book" positionX="-63" positionY="-18" width="128" height="103"/>
         <element name="Author" positionX="-54" positionY="18" width="128" height="88"/>
+        <element name="Book" positionX="-63" positionY="-18" width="128" height="103"/>
     </elements>
 </model>
